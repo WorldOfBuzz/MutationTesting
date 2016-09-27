@@ -22,9 +22,8 @@ public class NameParserTest {
 		String lastName = person.getLastName();
 		
 		/**
-		 * Ismét, rossz a tesztünk
+		 * Ismét rossz a tesztünk, nem elég alapo
 		 */
-		
 		Assert.assertEquals("John", firstName);
 	}
 	

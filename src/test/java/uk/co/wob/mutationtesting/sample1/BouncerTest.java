@@ -7,7 +7,7 @@ import org.junit.Test;
 import uk.co.wob.mutationtesting.sample1.Bouncer.Gender;
 
 /**
- * Ez egy borzalmas unittest. Ilyet még soha senki nem látott.
+ * Ez egy borzalmas unittest. 
  * 
  * @author janoszsolt
  *
@@ -30,7 +30,7 @@ public class BouncerTest {
 		boolean isTwentyOneMaleWelcome = this.bouncer.welcome(21, Gender.MALE);
 		
 		/**
-		 * Ez egy elég béna unittest :)
+		 * Ez egy elég béna hiba :)
 		 */
 		//Assert.assertTrue(this.bouncer.welcome(22, Gender.MALE));
 	}
